@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(215, 216, 216);
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+}
+
+.voltar a{
+    text-decoration: none;
+    font-size: 22px;
+}
+.voltar a:hover{
+    text-decoration: underline;
+}
+
+.login p{
+    color:  #003976;
+    font-size: 35px;
+}
+
+.form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    height: 450px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.form:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 3px;
+    border-left: none;
+    border-width: none;
+    border-top: none;
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(28, 28, 217);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    transition: 1s;
+    margin-top: -10px;
+}
+
+button:hover{
+    background-color: rgb(11, 11, 186);
+    cursor: pointer;
+    transition: 1s;
+}

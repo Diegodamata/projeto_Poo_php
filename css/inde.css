@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+ 
+  
+}
+.home-care{
+    margin-right: 790px;
+}
+.header img{
+    width: 85px;
+    height: 85px;
+}
+.entrar{
+   text-align: center;
+   padding: 15px;
+   border-radius: 5px;
+   height: 50px;
+   text-decoration: none;
+   transition: 0.5s;
+   color: #fff;
+   background-color: #007bff;
+}
+.cadastre{
+   text-align: center;
+   padding: 15px;
+   border-radius: 5px;
+   height: 50px;
+   text-decoration: none;
+   color: #fff;
+   background-color: #007bff;
+   transition: 0.5s;
+}
+
+
+
+
+/* PARTE DO MAIN*/
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    height: 310px;
+}
+
+.h1{
+    width: 700px;
+}
+
+.h1 p{
+    margin: 30px;
+    
+}
+
+.viva-bem{
+    font-size: 30px;
+    color:#004a98;
+}
+
+.h2{
+    margin-right: 60px;
+}
+
+.agenda{
+    background-color: #004a98;
+    height: 60px;
+    width: 190px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+.agenda:hover{
+    color: #004a98;
+    background-color: #fff;
+    border: 1px solid #004a98;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.icone{
+    width: 210px;
+    height: 70px;
+}
+
+img{
+    padding: 10px;
+    width: 140px;
+    height: 130px;
+}
+
+h6{
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+}
