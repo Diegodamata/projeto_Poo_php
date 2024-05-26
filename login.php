@@ -20,7 +20,7 @@
                 <img src="./img/casa.webp" alt="">
             </div>
 		    <div>
-			    <input type="text" id="login" class="login" name="login" placeholder="E-mail:">
+			    <input type="text" id="login" class="login" name="login" placeholder="Login:">
                 
 			</div>
 
@@ -46,7 +46,7 @@
        
         // validando os inputs se o usuario apertar entrar e o login e senha do usuario estiver vazio ira mostrar os erros
         if(empty($_POST['login'])){
-            echo '<div class="erro"> Informe o E-mail! </div>';
+            echo '<div class="erro"> Informe o Login! </div>';
             exit();
         }
         if(empty($_POST['senha'])){
