@@ -81,7 +81,7 @@ if(isset($_POST['send'])){
         $cadastro->setSenha(md5($_POST['senha']));
        
         //grvando no banco de dados
-       // $cadastro -> gravar($db);
+        $cadastro -> gravar($db);
     
         /*$where = "idusuarios = '65'";
         $cadastro->excluir($db, $where);*/
